@@ -1,442 +1,459 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>ShopZone</title>
-        <link href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css " rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div id="header">
-            <div class="headerClass">
-                <a href="#"><img src="images/shopzoneLogo.png" class="logo" alt=""></a>
-                <div>
-                    <ul id="MenuBar" class="navbar">
-                        <li> <a class="active" href="index.html">Home</a></li>
-                        <li> <a href="#">Shop</a></li>
-                        <li> <a href="#">Blog</a></li>
-                        <li> <a href="#">About</a></li>
-                        <li> <a href="#">Contact</a></li>
-                        <li> <a href="#"><img src="images/shopping-cart (1).png"></a></li>
-                    </ul>
-                </div>
-                <div id="mobile">
-                    <a href="cart.html"><img src="images/shopping-cart (1).png"></a>
-                    <i id="bar" class="fas fa-outdent"></i>
-                </div>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShopZone - Modern Fashion Store</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="headerClass">
+        <a href="#"
+          ><img src="images/shopzoneLogo.png" class="logo" alt="ShopZone Logo"
+        /></a>
+        <div>
+          <ul id="MenuBar" class="navbar">
+            <i class="fas fa-times" id="close"></i>
+            <li><a class="active" href="#Hero">Home</a></li>
+            <li><a href="#Features">Features</a></li>
+            <li><a href="#product1">Products</a></li>
+            <li><a href="#banner">Offers</a></li>
+            <li><a href="#newsletter">Newsletter</a></li>
+            <li><a href="#Contact">Contact</a></li>
+          </ul>
         </div>
-        <div id="Hero">
-            <h4> Trade-in-offer</h4>
-            <h2> Super value deals</h2>
-            <h1> On all products </h1>
-            <p> Save more with coupons & up to 70% off !</p>
-            <button>Shop Now</button>
+        <div id="mobile">
+          <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+          <i id="bar" class="fas fa-bars"></i>
         </div>
+      </div>
+    </div>
 
-        <div id="Features">
-            <div class="fe-box">
-                <img src="images/f1.png"alt = " ">
-                <h6> Free Shipping </h6>
+    <section id="Hero">
+      <h4>Trade-in-offer</h4>
+      <h2>Super value deals</h2>
+      <h1>On all products</h1>
+      <p>Save more with coupons & up to 70% off!</p>
+      <button>Shop Now</button>
+    </section>
+
+    <section id="Features">
+      <div class="fe-box">
+        <img src="images/f1.png" alt="Free Shipping" />
+        <h6>Free Shipping</h6>
+      </div>
+      <div class="fe-box">
+        <img src="images/f2.png" alt="Online Order" />
+        <h6>Online Order</h6>
+      </div>
+      <div class="fe-box">
+        <img src="images/f3.png" alt="Save Money" />
+        <h6>Save Money</h6>
+      </div>
+      <div class="fe-box">
+        <img src="images/f4.png" alt="Promotions" />
+        <h6>Promotions</h6>
+      </div>
+      <div class="fe-box">
+        <img src="images/f5.png" alt="Happy Sell" />
+        <h6>Happy Sell</h6>
+      </div>
+      <div class="fe-box">
+        <img src="images/f6.png" alt="24/7 Support" />
+        <h6>24/7 Support</h6>
+      </div>
+    </section>
+
+    <section id="product1">
+      <h2>Featured Products</h2>
+      <p>Summer Collection New Modern Design</p>
+      <div class="pro-container">
+        <div class="pro">
+          <img src="images/fp1.jpg" alt="Product 1" />
+          <div class="des">
+            <span>adidas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
             </div>
-            <div class="fe-box">
-                <img src="images/f2.png"alt = " ">
-                <h6> Online Order </h6>
-            </div>
-            <div class="fe-box">
-                <img src="images/f3.png"alt = " ">
-                <h6> Save Money </h6>
-            </div>
-            <div class="fe-box">
-                <img src="images/f4.png"alt = " ">
-                <h6> Promotions </h6>
-            </div>
-            <div class="fe-box">
-                <img src="images/f5.png"alt = " ">
-                <h6> Happy Sell </h6>
-            </div>
-            <div class="fe-box">
-                <img src="images/f6.png"alt = " ">
-                <h6> F24/7 Support </h6>
-            </div>
+            <h4>$78</h4>
+          </div>
+          <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
         </div>
-
-        <div id="product1"> 
-            <h2> Featured Products </h2>
-            <p> Summer Collection New Mordern  Design </p>
-            <div class="pro-container">
-                <div class="pro">
-                    <img src="images/fp1.jpg" alt = " ">
-                    <div class="des">
-                        <span> adidas</span>
-                        <h5> Cartoon Arstronaut T-Shirts </h5>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <h4>$78</h4>
-                    </div>
-                    <a href="#"> <i class="fal fa-shopping-cart cart"> </i></a>
-                </div>
-                <div class="pro">
-                    <img src="images/fp2.jpg" alt = " ">
-                    <div class="des">
-                        <span> adidas</span>
-                        <h5> Cartoon Arstronaut T-Shirts </h5>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <h4>$78</h4>
-                    </div>
-                    <a href="#"> <i class="fal fa-shopping-cart cart"> </i></a>
-                </div>
-                <div class="pro">
-                    <img src="images/fp3.jpg" alt = " ">
-                    <div class="des">
-                        <span> adidas</span>
-                        <h5> Cartoon Arstronaut T-Shirts </h5>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <h4>$78</h4>
-                    </div>
-                    <a href="#"> <i class="fal fa-shopping-cart cart"> </i></a>
-                </div>
-                <div class="pro">
-                    <img src="images/fp4.jpg" alt = " ">
-                    <div class="des">
-                        <span> adidas</span>
-                        <h5> Cartoon Arstronaut T-Shirts </h5>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <h4>$78</h4>
-                    </div>
-                    <a href="#"> <i class="fal fa-shopping-cart cart"> </i></a>
-                </div>
-                <div class="pro">
-                    <img src="images/fp5.jpg" alt = " ">
-                    <div class="des">
-                        <span> adidas</span>
-                        <h5> Cartoon Arstronaut T-Shirts </h5>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <h4>$78</h4>
-                    </div>
-                    <a href="#"> <i class="fal fa-shopping-cart cart"> </i></a>
-                </div>
-                <div class="pro">
-                    <img src="images/fp6.jpg" alt = " ">
-                    <div class="des">
-                        <span> adidas</span>
-                        <h5> Cartoon Arstronaut T-Shirts </h5>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <h4>$78</h4>
-                    </div>
-                    <a href="#"> <i class="fal fa-shopping-cart cart"> </i></a>
-                </div>
-                <div class="pro">
-                    <img src="images/fp7.jpg" alt = " ">
-                    <div class="des">
-                        <span> adidas</span>
-                        <h5> Cartoon Arstronaut T-Shirts </h5>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <h4>$78</h4>
-                    </div>
-                    <a href="#"> <i class="fal fa-shopping-cart cart"> </i></a>
-                </div>
-                <div class="pro">
-                    <img src="images/fp8.jpg" alt = " ">
-                    <div class="des">
-                        <span> adidas</span>
-                        <h5> Cartoon Arstronaut T-Shirts </h5>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <h4>$78</h4>
-                    </div>
-                    <a href="#"> <i class="fal fa-shopping-cart cart"> </i></a>
-                </div>
-                
+        <div class="pro">
+          <img src="images/fp2.jpg" alt="Product 2" />
+          <div class="des">
+            <span>adidas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
             </div>
-
+            <h4>$78</h4>
+          </div>
+          <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
         </div>
-
-        <div id="banner" class="M1 ">
-            <h4>Repair Services </h4>
-            <h2> Up to <span> 70% off </span>- all t-shirts & Accessories</h2>
-            <button class="normal"> Explore More </button>
+        <div class="pro">
+          <img src="images/fp3.jpg" alt="Product 3" />
+          <div class="des">
+            <span>adidas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
         </div>
-
-        <div id="product1"> 
-            <h2> New Arrivals  </h2>
-            <p> Summer Collection New Mordern  Design </p>
-            <div class="pro-container">
-                <div class="pro">
-                    <img src="images/n1.jpg" alt = " ">
-                    <div class="des">
-                        <span> adidas</span>
-                        <h5> Cartoon Arstronaut T-Shirts </h5>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <h4>$78</h4>
-                    </div>
-                    <a href="#"> <i class="fal fa-shopping-cart cart"> </i></a>
-                </div>
-                <div class="pro">
-                    <img src="images/n2.jpg" alt = " ">
-                    <div class="des">
-                        <span> adidas</span>
-                        <h5> Cartoon Arstronaut T-Shirts </h5>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <h4>$78</h4>
-                    </div>
-                    <a href="#"> <i class="fal fa-shopping-cart cart"> </i></a>
-                </div>
-                <div class="pro">
-                    <img src="images/n3.jpg" alt = " ">
-                    <div class="des">
-                        <span> adidas</span>
-                        <h5> Cartoon Arstronaut T-Shirts </h5>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <h4>$78</h4>
-                    </div>
-                    <a href="#"> <i class="fal fa-shopping-cart cart"> </i></a>
-                </div>
-                <div class="pro">
-                    <img src="images/n4.jpg" alt = " ">
-                    <div class="des">
-                        <span> adidas</span>
-                        <h5> Cartoon Arstronaut T-Shirts </h5>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <h4>$78</h4>
-                    </div>
-                    <a href="#"> <i class="fal fa-shopping-cart cart"> </i></a>
-                </div>
-                <div class="pro">
-                    <img src="images/n5.jpg" alt = " ">
-                    <div class="des">
-                        <span> adidas</span>
-                        <h5> Cartoon Arstronaut T-Shirts </h5>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <h4>$78</h4>
-                    </div>
-                    <a href="#"> <i class="fal fa-shopping-cart cart"> </i></a>
-                </div>
-                <div class="pro">
-                    <img src="images/n6.jpg" alt = " ">
-                    <div class="des">
-                        <span> adidas</span>
-                        <h5> Cartoon Arstronaut T-Shirts </h5>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <h4>$78</h4>
-                    </div>
-                    <a href="#"> <i class="fal fa-shopping-cart cart"> </i></a>
-                </div>
-                <div class="pro">
-                    <img src="images/n7.jpg" alt = " ">
-                    <div class="des">
-                        <span> adidas</span>
-                        <h5> Cartoon Arstronaut T-Shirts </h5>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <h4>$78</h4>
-                    </div>
-                    <a href="#"> <i class="fal fa-shopping-cart cart"> </i></a>
-                </div>
-                <div class="pro">
-                    <img src="images/n8.jpg" alt = " ">
-                    <div class="des">
-                        <span> adidas</span>
-                        <h5> Cartoon Arstronaut T-Shirts </h5>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <h4>$78</h4>
-                    </div>
-                    <a href="#"> <i class="fal fa-shopping-cart cart"> </i></a>
-                </div>
-                
+        <div class="pro">
+          <img src="images/fp4.jpg" alt="Product 4" />
+          <div class="des">
+            <span>adidas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
             </div>
-
+            <h4>$78</h4>
+          </div>
+          <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
         </div>
-
-        <div id="sm-banner" class="p1">
-            <div class="banner-box">
-                <h4> Crazy Deals </h4>
-                <h2> Buy 1 get 1 free </h2>
-                <span> The Best Classic dress is on sale at ShopZone</span>
-                <button class="white"> Learn More </button>
+        <div class="pro">
+          <img src="images/fp5.jpg" alt="Product 5" />
+          <div class="des">
+            <span>adidas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
             </div>
-            <div class="banner-box banner-box2">
-                <h4> Spring/Summer </h4>
-                <h2> upcoming season  </h2>
-                <span> The Best Classic dress is on sale at ShopZone</span>
-                <button class="white"> Collection  </button>
-            </div>
+            <h4>$78</h4>
+          </div>
+          <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
         </div>
-
-        <div id="banner3">
-            <div class="banner-box ">
-                <h2> SEASONAL SALE   </h2>
-                <h3> Winter collaction - 50% off </h3>>
+        <div class="pro">
+          <img src="images/fp6.jpg" alt="Product 6" />
+          <div class="des">
+            <span>adidas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
             </div>
-            <div class="banner-box banner-box2">
-                <h2> NEW FOOTWEAR collaction</h2>
-                <h3> Spring / Summer 2024 </h3>>
-            </div>
-            <div class="banner-box banner-box3">
-                <h2> T-SHIRTS   </h2>
-                <h3>New Trendy Printes </h3>>
-            </div>
+            <h4>$78</h4>
+          </div>
+          <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
         </div>
-
-        <div id="newsletter" class="p1 M1">
-            <div class="newstext">
-                <h4> Sign Up For newsletters</h4>
-                <p> Get E-Mail updates about our latest shop and <span> Special Offers.</span></p>
+        <div class="pro">
+          <img src="images/fp7.jpg" alt="Product 7" />
+          <div class="des">
+            <span>adidas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
             </div>
-            <div class="form">
-                <input type="text" placeholder="Your E-Mail Address ">
-                <button class="normal"> Sign Up </button>
-            </div>
+            <h4>$78</h4>
+          </div>
+          <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
         </div>
-
-        <footer class="p1">
-            <div class="col">
-                <img src="images/shopzoneLogo.png" class="logo2">
-                <h4> Contact </h4>
-                <p> <strong>Address :-</strong>  562 Gurugram , Street 5 , Haryana</p>
-                <p> <strong> Phone :- </strong> +91 9323456789</p>
-                <p> <strong> Hours :- </strong>10:00  -  18:00 , Mon - Sat </p>
-                <div class="follow">
-                    <h4> follow Us </h4>
-                    <div class="icon">
-                        <i> <img src="images/facebook.png" class="icons"></i>
-                        <i> <img src="images/instagram.png" class="icons"></i>
-                        <i> <img src="images/twitter.png" class="icons"></i>
-                        <i> <img src="images/youtube.png" class="icons"></i>
-                        <i> <img src="images/pinterest.png" class="icons"></i>
-                    </div>
-                </div>
+        <div class="pro">
+          <img src="images/fp8.jpg" alt="Product 8" />
+          <div class="des">
+            <span>adidas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
             </div>
+            <h4>$78</h4>
+          </div>
+          <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+        </div>
+      </div>
+    </section>
 
-            <div class="col">
-                <h4> About </h4>
-                <a href="#"> About Us </a>
-                <a href="#"> Delivery Information  </a>
-                <a href="#"> Privecy Policy </a>
-                <a href="#"> Terms & Conditions  </a>
-                <a href="#"> Contact Us</a>
+    <section id="banner" class="M1">
+      <h4>Repair Services</h4>
+      <h2>Up to <span>70% off</span> - all t-shirts & Accessories</h2>
+      <button class="normal">Explore More</button>
+    </section>
+
+    <section id="product1">
+      <h2>New Arrivals</h2>
+      <p>Summer Collection New Modern Design</p>
+      <div class="pro-container">
+        <div class="pro">
+          <img src="images/n1.jpg" alt="New Product 1" />
+          <div class="des">
+            <span>adidas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
             </div>
-
-            <div class="col">
-                <h4> My Account  </h4>
-                <a href="#"> Sign In  </a>
-                <a href="#"> View Cart   </a>
-                <a href="#"> My WishList </a>
-                <a href="#">Track My Order </a>
-                <a href="#">Help </a>
+            <h4>$78</h4>
+          </div>
+          <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+        </div>
+        <div class="pro">
+          <img src="images/n2.jpg" alt="New Product 2" />
+          <div class="des">
+            <span>adidas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
             </div>
-
-            <div class="col install ">
-                <h4> Install App</h4>
-                <p> From App Store Or Google Play </p>
-                <div class="row">
-                    <img src="images/app.jpg" alt="">
-                    <img src="images/play.jpg" alt="">
-                </div>
-                <p>Secured Payment Gateways </p>
-                <img src="images/pay.png" alt="">
+            <h4>$78</h4>
+          </div>
+          <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+        </div>
+        <div class="pro">
+          <img src="images/n3.jpg" alt="New Product 3" />
+          <div class="des">
+            <span>adidas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
             </div>
-
-
-            <div class="copyright">
-                <p> @ 2025 , Javed Akhtar - ShopZone</p>
+            <h4>$78</h4>
+          </div>
+          <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+        </div>
+        <div class="pro">
+          <img src="images/n4.jpg" alt="New Product 4" />
+          <div class="des">
+            <span>adidas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
             </div>
-        </footer>
-    
-        <script src="script.js"></script>
-    </body>
+            <h4>$78</h4>
+          </div>
+          <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+        </div>
+        <div class="pro">
+          <img src="images/n5.jpg" alt="New Product 5" />
+          <div class="des">
+            <span>adidas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+        </div>
+        <div class="pro">
+          <img src="images/n6.jpg" alt="New Product 6" />
+          <div class="des">
+            <span>adidas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+        </div>
+        <div class="pro">
+          <img src="images/n7.jpg" alt="New Product 7" />
+          <div class="des">
+            <span>adidas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+        </div>
+        <div class="pro">
+          <img src="images/n8.jpg" alt="New Product 8" />
+          <div class="des">
+            <span>adidas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+        </div>
+      </div>
+    </section>
+
+    <section id="sm-banner" class="p1">
+      <div class="banner-box">
+        <h4>Crazy Deals</h4>
+        <h2>Buy 1 get 1 free</h2>
+        <span>The Best Classic dress is on sale at ShopZone</span>
+        <button class="white">Learn More</button>
+      </div>
+      <div class="banner-box banner-box2">
+        <h4>Spring/Summer</h4>
+        <h2>Upcoming season</h2>
+        <span>The Best Classic dress is on sale at ShopZone</span>
+        <button class="white">Collection</button>
+      </div>
+    </section>
+
+    <section id="banner3">
+      <div class="banner-box">
+        <h2>SEASONAL SALE</h2>
+        <h3>Winter collection - 50% off</h3>
+      </div>
+      <div class="banner-box banner-box2">
+        <h2>NEW FOOTWEAR COLLECTION</h2>
+        <h3>Spring / Summer 2024</h3>
+      </div>
+      <div class="banner-box banner-box3">
+        <h2>T-SHIRTS</h2>
+        <h3>New Trendy Prints</h3>
+      </div>
+    </section>
+
+    <section id="newsletter" class="p1 M1">
+      <div class="newstext">
+        <h4>Sign Up For Newsletters</h4>
+        <p>
+          Get E-Mail updates about our latest shop and
+          <span>Special Offers.</span>
+        </p>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="Your E-Mail Address" />
+        <button class="normal">Sign Up</button>
+      </div>
+    </section>
+
+    <section id="Contact" class="p1 M1"></section>
+    <footer class="p1">
+      <div class="col">
+        <img src="images/shopzoneLogo.png" class="logo2" alt="ShopZone Logo" />
+        <h4>Contact</h4>
+        <p><strong>Address:</strong> 562 Gurugram, Street 5, Haryana</p>
+        <p><strong>Phone:</strong> +91 9323456789</p>
+        <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+        <div class="follow">
+          <h4>Follow Us</h4>
+          <div class="icon">
+            <a href="#"
+              ><img src="images/facebook.png" class="icons" alt="Facebook"
+            /></a>
+            <a href="#"
+              ><img src="images/instagram.png" class="icons" alt="Instagram"
+            /></a>
+            <a href="#"
+              ><img src="images/twitter.png" class="icons" alt="Twitter"
+            /></a>
+            <a href="#"
+              ><img src="images/youtube.png" class="icons" alt="YouTube"
+            /></a>
+            <a href="#"
+              ><img src="images/pinterest.png" class="icons" alt="Pinterest"
+            /></a>
+          </div>
+        </div>
+      </div>
+          </section>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+      </div>
+
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store Or Google Play</p>
+        <div class="row">
+          <img src="images/app.jpg" alt="App Store" />
+          <img src="images/play.jpg" alt="Google Play" />
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="images/pay.png" alt="Payment Methods" />
+      </div>
+
+      <div class="copyright">
+        <p>&copy; 2025, Javed Akhtar - ShopZone</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
